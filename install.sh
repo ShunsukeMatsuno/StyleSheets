@@ -30,7 +30,7 @@ cp ./slide/*.sty "$path_sty"
 cp ./biblatex/biblatex-aer.tex "$path_sty"
 
 # Copy the logo file to the images directory
-cp ./images/CBS_logo.png "$path_img"
+cp ./images/*.png "$path_img"
 
 # Update TeX's file database to recognize the new files
 texhash
